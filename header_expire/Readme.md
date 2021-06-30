@@ -1,3 +1,5 @@
+### *This repository contains list of nginx configuration which you can use to play with basic nginx configuration.*
+
 # Nginx
  NginX is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.
 
@@ -37,4 +39,33 @@ controlled by directives specified in the configuration file.
 
 Context = block directive can have other directives inside braces.
 
-This repository contains list of nginx configuration which you can use to play with basic nginx configuration.
+
+## Repository Structure
+
+```
+nginx/
+|-- Readme.md
+|-- buffer
+|   `-- nginx.conf
+|-- compress
+|   `-- nginx.conf
+|-- conf
+|   `-- nginx.conf
+|-- dynamic_module
+|   `-- nginx.conf
+|-- header_expire
+|   `-- nginx.conf
+|-- log
+|   `-- nginx.conf
+|-- php
+|   `-- nginx.conf
+|-- reverse-proxy
+|   `-- nginx.conf
+|-- rewrite&return
+|   `-- nginx.conf
+|-- try
+|   `-- nginx.conf
+|-- variable
+|   `-- nginx.conf
+`-- worker
+    `-- nginx.conf
